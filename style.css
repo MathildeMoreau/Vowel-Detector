@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Permanent+Marker&display=swap');
+
+body{
+    background: #FAE09D;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    width: 15rem;
+    padding: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+button{
+    padding: 15px;
+    font-size: 1rem;
+    background: #F9C8B7;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.answer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5rem;
+}
+
+#vowel-btn, input{
+    border-radius: 15px;
+}
+
+h3{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
